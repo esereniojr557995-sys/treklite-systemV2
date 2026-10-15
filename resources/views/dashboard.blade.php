@@ -12,7 +12,7 @@
     <h3 class="mb-4">Dashboard</h3>
 
     {{-- 1. SALES SUMMARY --}}
-    <h6 class="text-uppercase text-muted mb-2"><i class="bi bi-receipt"></i> Sale</h6>
+    <h6 class="text-uppercase text-muted mb-2"><i class="bi bi-receipt"></i> Sales</h6>
     <div class="row g-3 mb-4">
         @foreach ([['Today', $today], ['This week', $week], ['This month', $month]] as [$label, $s])
             <div class="col-md-3 col-sm-6">
